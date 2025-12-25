@@ -50,15 +50,12 @@ Experienced **DevOps Engineer (3+ Years)** focused on architecting resilient clo
 
 ---
 
-### 📊 GitHub Insights
+---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mukundDeo9325&show_icons=true&theme=material-palenight&count_private=true" alt="Mukund's GitHub Stats" />
+### 📊 GitHub Activity
+<p align="left">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mukundDeo9325&theme=github-compact" width="100%" />
 </p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukundDeo9325&layout=compact&theme=material-palenight&hide_border=false" alt="Top Languages" />
-</p>
-
 
 ---
 
