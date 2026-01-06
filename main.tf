@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
    apt update -y
    apt install apache2 -y
    systemctl start apache2
-   echo "Hello Terraform" > /var/www/html/index.html
+   echo "Update script" > /var/www/html/index.html
   EOF
 
   tags = {
