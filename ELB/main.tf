@@ -40,10 +40,10 @@ resource "aws_launch_template" "example" {
   # Base64 encode the user_data
   user_data = base64encode(<<-EOF
               #!/bin/bash
-              apt update -y
-              apt install -y apache2
-              systemctl start apache2
-              systemctl enable apache2
+              yum update -y
+              yum install -y httpd
+              systemctl start httpd
+              systemctl enable httpd
               mkdir -p /var/www/html/mobile
               mkdir -p /var/www/html/laptop
 
@@ -69,8 +69,8 @@ resource "aws_launch_template" "example" {
               </html>
               EOF2
 
-              chown -R apache2:apache2 /var/www/html
-              systemctl restart apache2
+              chown -R apache:apache /var/www/html
+              systemctl restart httpd
 
               # Home page with instructions
               echo "<h1>HOME PAGE add /mobile-app /laptop" > /var/www/html/index.html
